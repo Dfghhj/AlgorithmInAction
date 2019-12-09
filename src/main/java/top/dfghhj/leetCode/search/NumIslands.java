@@ -42,14 +42,14 @@ public class NumIslands {
     public int numIslands(char[][] grid) {
         int result = 0;
         int rows = grid.length;
-        if (rows > 0) {
-            int columns = grid[0].length;
-            if (columns > 0) {
-                for (int i=0;i<rows;i++) {
-                    for (int j=0;j<columns;j++) {
+        if ( rows > 0) {
+            int cols = grid[0].length;
+            if (cols > 0) {
+                for (int i = 0; i < rows; i++) {
+                    for (int j = 0; j < cols; j++) {
                         if (grid[i][j] == '1') {
-                            result++;
-                            toZero(grid,i,j,rows,columns);
+                            result ++ ;
+                            findLand(i, j, rows, cols, grid);
                         }
                     }
                 }
@@ -58,17 +58,22 @@ public class NumIslands {
         return result;
     }
 
-    private void toZero(char[][] grid,int i,int j,int rows,int columns){
-        if(i<0 || i>=rows || j<0 || j>=columns){
-            return ;
-        }
-        if(grid[i][j]!='1'){
+    private void findLand(int rowNumber, int colNumber, int rows, int cols, char[][] grid) {
+        if(grid[rowNumber][colNumber]!='1'){
             return;
         }
-        grid[i][j]='0';
-        toZero(grid,i+1,j,rows,columns);
-        toZero(grid,i-1,j,rows,columns);
-        toZero(grid,i,j+1,rows,columns);
-        toZero(grid,i,j-1,rows,columns);
+        grid[rowNumber][colNumber] = '0';
+        if (rowNumber+1 < rows) {
+            findLand(rowNumber+1, colNumber, rows, cols, grid);
+        }
+        if (rowNumber-1 >= 0) {
+            findLand(rowNumber-1, colNumber, rows, cols, grid);
+        }
+        if (colNumber+1 < cols) {
+            findLand(rowNumber, colNumber+1, rows, cols, grid);
+        }
+        if (colNumber-1 >= 0) {
+            findLand(rowNumber, colNumber-1, rows, cols, grid);
+        }
     }
 }
