@@ -9,6 +9,7 @@
 - [150.逆波兰表达式求值](src/main/java/top/dfghhj/leetCode/stack/InversePolishExpression.java)
 - [155.最小栈](src/main/java/top/dfghhj/leetCode/stack/MyMinStack.java)
 - [200.岛屿的个数](src/main/java/top/dfghhj/leetCode/search/NumIslands.java)
+- [232.用栈实现队列](src/main/java/top/dfghhj/leetCode/stack/MyQueue.java)
 - [279.完全平方数](src/main/java/top/dfghhj/leetCode/search/NumSquares.java)
 - [494.目标和](src/main/java/top/dfghhj/leetCode/stack/FindTargetSumWays.java)
 - [622.设计循环队列](src/main/java/top/dfghhj/leetCode/queue/CircularQueue.java)
