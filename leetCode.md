@@ -17,5 +17,6 @@
 - [724. 寻找数组的中心索引](src/main/java/top/dfghhj/leetCode/array/PivotIndex.java)
 - [733. 图像渲染](src/main/java/top/dfghhj/leetCode/stack/FloodFill.java)
 - [739.每日温度](src/main/java/top/dfghhj/leetCode/stack/DailyTemperatures.java)
+- [747. 至少是其他数字两倍的最大数](src/main/java/top/dfghhj/leetCode/array/DominantIndex.java)
 - [752.打开转盘锁](src/main/java/top/dfghhj/leetCode/search/OpenLock.java)
 - [841. 钥匙和房间](src/main/java/top/dfghhj/leetCode/search/CanVisitAllRooms.java)
