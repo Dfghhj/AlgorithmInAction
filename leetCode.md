@@ -7,6 +7,7 @@
 - [54.螺旋矩阵](src/main/java/top/dfghhj/leetCode/array/SpiralOrder.java)
 - [66. 加一](src/main/java/top/dfghhj/leetCode/array/PlusOne.java)
 - [94.二叉树的中序遍历](src/main/java/top/dfghhj/leetCode/stack/InorderTraversal.java)
+- [118.杨辉三角](src/main/java/top/dfghhj/leetCode/array/PascalsTriangle.java)
 - [133.克隆图](src/main/java/top/dfghhj/leetCode/search/CloneGraph.java)
 - [150.逆波兰表达式求值](src/main/java/top/dfghhj/leetCode/stack/InversePolishExpression.java)
 - [155.最小栈](src/main/java/top/dfghhj/leetCode/stack/MyMinStack.java)
