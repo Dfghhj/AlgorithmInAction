@@ -5,6 +5,7 @@
 - [11.盛最多水的容器](src/main/java/top/dfghhj/leetCode/array/MaxArea.java)
 - [14. 最长公共前缀](src/main/java/top/dfghhj/leetCode/string/LongestCommonPrefix.java)
 - [20.有效的括号](src/main/java/top/dfghhj/leetCode/stack/ValidParentheses.java)
+- [27. 移除元素](src/main/java/top/dfghhj/leetCode/array/RemoveElement.java)
 - [28. 实现 strStr()](src/main/java/top/dfghhj/leetCode/string/StrStr.java)
 - [54.螺旋矩阵](src/main/java/top/dfghhj/leetCode/array/SpiralOrder.java)
 - [66. 加一](src/main/java/top/dfghhj/leetCode/array/PlusOne.java)
