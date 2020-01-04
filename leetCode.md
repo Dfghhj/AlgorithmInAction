@@ -32,6 +32,7 @@
 - [557. 反转字符串中的单词 III](src/main/java/top/dfghhj/leetCode/string/ReverseWords3.java)
 - [561. 数组拆分 I](src/main/java/top/dfghhj/leetCode/array/ArrayPairSum.java)
 - [622.设计循环队列](src/main/java/top/dfghhj/leetCode/queue/CircularQueue.java)
+- [707.设计链表](src/main/java/top/dfghhj/leetCode/list/MyLinkedList.java)
 - [724. 寻找数组的中心索引](src/main/java/top/dfghhj/leetCode/array/PivotIndex.java)
 - [733. 图像渲染](src/main/java/top/dfghhj/leetCode/stack/FloodFill.java)
 - [739.每日温度](src/main/java/top/dfghhj/leetCode/stack/DailyTemperatures.java)
