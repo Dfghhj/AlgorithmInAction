@@ -20,6 +20,7 @@
 - [150.逆波兰表达式求值](src/main/java/top/dfghhj/leetCode/stack/InversePolishExpression.java)
 - [151. 翻转字符串里的单词](src/main/java/top/dfghhj/leetCode/string/ReverseWords.java)
 - [155.最小栈](src/main/java/top/dfghhj/leetCode/stack/MyMinStack.java)
+- [160. 相交链表](src/main/java/top/dfghhj/leetCode/list/GetIntersectionNode.java)
 - [167. 两数之和 II - 输入有序数组](src/main/java/top/dfghhj/leetCode/array/MyMinStack.java)
 - [189. 旋转数组](src/main/java/top/dfghhj/leetCode/array/Rotate.java)
 - [200.岛屿的个数](src/main/java/top/dfghhj/leetCode/search/NumIslands.java)
