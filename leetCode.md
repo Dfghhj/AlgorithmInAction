@@ -29,6 +29,7 @@
 - [206. 反转链表](src/main/java/top/dfghhj/leetCode/list/ReverseList.java)
 - [209. 长度最小的子数组](src/main/java/top/dfghhj/leetCode/array/MinSubArrayLen.java)
 - [225. 用队列实现栈](src/main/java/top/dfghhj/leetCode/queue/MyStack.java)
+- [234. 回文链表](src/main/java/top/dfghhj/leetCode/list/IsPalindrome.java)
 - [232. 用栈实现队列](src/main/java/top/dfghhj/leetCode/stack/MyQueue.java)
 - [279. 完全平方数](src/main/java/top/dfghhj/leetCode/search/NumSquares.java)
 - [283. 移动零](src/main/java/top/dfghhj/leetCode/array/MoveZeroes.java)
